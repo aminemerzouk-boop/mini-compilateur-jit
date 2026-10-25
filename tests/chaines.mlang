@@ -1,0 +1,8 @@
+// chaines : litteraux, concatenation, egalite de contenu
+fn saluer(nom) { return "salut " + nom; }
+print(saluer("Samuel"));
+let s = "ab" + "cd";
+print(s);
+print("ab" == "ab");
+print("ab" != "ac");
+print("" == "");

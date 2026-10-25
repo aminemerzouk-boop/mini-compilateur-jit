@@ -1,0 +1,10 @@
+// boucle "infinie" avec garde-fou : sortie par return a 100000
+fn boucle_gardee() {
+    let i = 0;
+    while (i >= 0) {
+        i = i + 1;
+        if (i >= 100000) { return i; }
+    }
+    return -1;
+}
+print(boucle_gardee());

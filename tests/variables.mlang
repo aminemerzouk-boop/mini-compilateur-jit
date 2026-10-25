@@ -1,0 +1,9 @@
+// portee globale / locale et affectations
+let compteur = 10;
+fn incrementer(n) {
+    let resultat = n + 1;
+    compteur = compteur + 1;
+    return resultat;
+}
+print(incrementer(compteur));
+print(compteur);

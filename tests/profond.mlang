@@ -1,0 +1,6 @@
+// recursion profonde : 500 cadres d'appel (limite VM : 1024)
+fn descend(n) {
+    if (n == 0) { return 0; }
+    return 1 + descend(n - 1);
+}
+print(descend(500));

@@ -1,0 +1,11 @@
+build/
+out/
+bin/
+*.o
+*.obj
+*.exe
+*.out
+*.so
+*.dll
+.vs/
+*.log

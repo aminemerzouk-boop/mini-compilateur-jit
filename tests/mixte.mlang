@@ -1,0 +1,10 @@
+// fonction numerique compilable + fonction dynamique interpretee
+fn carre(n) { return n * n; }
+fn etiquette(n) {
+    if (n > 10) { return "grand"; }
+    return "petit";
+}
+print(carre(9));
+print(etiquette(carre(2)));
+print(etiquette(carre(4)));
+print(carre(3) + 1);

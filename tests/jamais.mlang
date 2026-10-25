@@ -1,0 +1,9 @@
+// fonction jamais appelee : jamais executee, jamais JIT-compilee,
+// meme si son corps melange les types (erreur si on l'appelait)
+fn jamais_appelee(x) {
+    return "texte" + x;
+}
+fn fois_deux(n) {
+    return n * 2;
+}
+print(fois_deux(21));

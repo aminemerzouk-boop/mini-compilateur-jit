@@ -1,0 +1,11 @@
+// bool, nil, verite et de-optimisation selon l'argument
+fn id(x) { return x; }
+print(id(42));
+print(id("texte"));
+print(id(true));
+print(id(false));
+print(id(nil));
+print(nil == false);
+print(1 == true);
+if ("oui") { print(1); } else { print(0); }
+if (nil) { print(1); } else { print(0); }
